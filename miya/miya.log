@@ -1,0 +1,1041 @@
+INFO:root:Bot intialized
+ERROR:TeleBot:Infinity polling: polling exited
+ERROR:TeleBot:Break infinity polling
+2022-09-16 19:54:33,396 - root - INFO - Bot intialized
+2022-09-16 19:54:33,398 - root - INFO - Bot started
+2022-09-16 19:56:45,357 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 19:56:45,358 - TeleBot - ERROR - Break infinity polling
+2022-09-16 19:56:45,797 - root - INFO - Bot intialized
+2022-09-16 19:56:45,797 - root - INFO - Bot started
+2022-09-16 20:13:03,052 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 20:13:03,052 - TeleBot - ERROR - Break infinity polling
+2022-09-16 20:13:03,533 - root - INFO - Bot intialized
+2022-09-16 20:13:03,533 - root - INFO - Bot started
+2022-09-16 20:13:11,455 - TeleBot - ERROR - Infinity polling exception: 'list' object has no attribute 'content_type'
+2022-09-16 20:13:11,459 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 874, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 946, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 1021, in __threaded_polling
+    raise e
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 977, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 154, in raise_exceptions
+    raise self.exception_info
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 98, in run
+    task(*args, **kwargs)
+  File "C:\coding\py\bot-project\miya\miya\utils.py", line 16, in listener
+    if message.content_type == 'text':
+AttributeError: 'list' object has no attribute 'content_type'
+
+2022-09-16 20:14:15,402 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 20:14:15,402 - TeleBot - ERROR - Break infinity polling
+2022-09-16 20:14:15,730 - root - INFO - Bot intialized
+2022-09-16 20:14:15,731 - root - INFO - Bot started
+2022-09-16 20:14:18,102 - TeleBot - ERROR - Infinity polling exception: log() takes 1 positional argument but 4 were given
+2022-09-16 20:14:18,106 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 874, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 946, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 1021, in __threaded_polling
+    raise e
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 977, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 154, in raise_exceptions
+    raise self.exception_info
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 98, in run
+    task(*args, **kwargs)
+  File "C:\coding\py\bot-project\miya\miya\utils.py", line 18, in listener
+    log(m.chat.id, m.from_user.first_name, m.from_user.last_name, m.text)
+TypeError: log() takes 1 positional argument but 4 were given
+
+2022-09-16 20:15:40,593 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 20:15:40,593 - TeleBot - ERROR - Break infinity polling
+2022-09-16 20:15:40,958 - root - INFO - Bot intialized
+2022-09-16 20:15:40,968 - root - INFO - Bot started
+2022-09-16 20:15:43,185 - TeleBot - ERROR - Infinity polling exception: 'module' object is not callable
+2022-09-16 20:15:43,188 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 874, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 946, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 1021, in __threaded_polling
+    raise e
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 977, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 154, in raise_exceptions
+    raise self.exception_info
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 98, in run
+    task(*args, **kwargs)
+  File "C:\coding\py\bot-project\miya\miya\utils.py", line 19, in listener
+    text_handler(m)
+  File "C:\coding\py\bot-project\miya\miya\handler\text.py", line 16, in text_handler
+    log(f'Command: {message.text} received.')
+TypeError: 'module' object is not callable
+
+2022-09-16 20:16:07,197 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 20:16:07,198 - TeleBot - ERROR - Break infinity polling
+2022-09-16 20:16:07,656 - root - INFO - Bot intialized
+2022-09-16 20:16:07,666 - root - INFO - Bot started
+2022-09-16 20:16:09,136 - root - INFO - Command: /start received.
+2022-09-16 20:16:24,945 - root - INFO - Command: /help received.
+2022-09-16 20:16:24,969 - TeleBot - ERROR - Infinity polling exception: 'InlineKeyboardButton' object is not iterable
+2022-09-16 20:16:24,969 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 874, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 946, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 1021, in __threaded_polling
+    raise e
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 977, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 154, in raise_exceptions
+    raise self.exception_info
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 98, in run
+    task(*args, **kwargs)
+  File "C:\coding\py\bot-project\miya\miya\utils.py", line 19, in listener
+    text_handler(m)
+  File "C:\coding\py\bot-project\miya\miya\handler\text.py", line 17, in text_handler
+    command_handler(message)
+  File "C:\coding\py\bot-project\miya\miya\handler\command.py", line 22, in command_handler
+    return help(message)
+  File "C:\coding\py\bot-project\miya\miya\module\help.py", line 17, in help
+    bot.send_message(message.chat.id, 'Check out the following buttons to get more information.',
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 1451, in send_message
+    apihelper.send_message(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 263, in send_message
+    payload['reply_markup'] = _convert_markup(reply_markup)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 1752, in _convert_markup
+    return markup.to_json()
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\types.py", line 2259, in to_json
+    return json.dumps(self.to_dict())
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\types.py", line 2263, in to_dict
+    json_dict['inline_keyboard'] = [[button.to_dict() for button in row] for row in self.keyboard]
+TypeError: 'InlineKeyboardButton' object is not iterable
+
+2022-09-16 20:25:46,132 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 20:25:46,132 - TeleBot - ERROR - Break infinity polling
+2022-09-16 20:25:46,574 - root - INFO - Bot intialized
+2022-09-16 20:25:46,582 - root - INFO - Bot started
+2022-09-16 20:25:51,774 - root - INFO - Command: /help received.
+2022-09-16 20:25:52,938 - TeleBot - ERROR - Infinity polling exception: 'module' object is not callable
+2022-09-16 20:25:52,942 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 874, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 946, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 1021, in __threaded_polling
+    raise e
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 977, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 154, in raise_exceptions
+    raise self.exception_info
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 98, in run
+    task(*args, **kwargs)
+  File "C:\coding\py\bot-project\miya\miya\utils.py", line 19, in listener
+    text_handler(m)
+  File "C:\coding\py\bot-project\miya\miya\handler\text.py", line 17, in text_handler
+    command_handler(message)
+  File "C:\coding\py\bot-project\miya\miya\handler\command.py", line 22, in command_handler
+    return help(message)
+  File "C:\coding\py\bot-project\miya\miya\module\help.py", line 42, in help
+    log(f'Command: {message.text} executed.')
+TypeError: 'module' object is not callable
+
+2022-09-16 20:27:20,120 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 20:27:20,120 - TeleBot - ERROR - Break infinity polling
+2022-09-16 20:27:20,633 - root - INFO - Bot intialized
+2022-09-16 20:27:20,642 - root - INFO - Bot started
+2022-09-16 20:27:23,885 - root - INFO - Command: /help received.
+2022-09-16 20:27:25,499 - root - INFO - Command: /help executed.
+2022-09-16 20:50:48,439 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 20:50:48,439 - TeleBot - ERROR - Break infinity polling
+2022-09-16 20:50:49,011 - root - INFO - Bot intialized
+2022-09-16 20:50:49,020 - root - INFO - Bot started
+2022-09-16 20:50:57,234 - root - INFO - Command: /kick received.
+2022-09-16 20:52:30,734 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 20:52:30,734 - TeleBot - ERROR - Break infinity polling
+2022-09-16 20:52:31,133 - root - INFO - Bot intialized
+2022-09-16 20:52:31,146 - root - INFO - Bot started
+2022-09-16 20:52:32,940 - root - INFO - Command: /kick received.
+2022-09-16 20:52:57,106 - root - INFO - Command: /ban received.
+2022-09-16 20:52:57,107 - root - INFO - Private chat detected.
+2022-09-16 20:53:14,912 - root - INFO - Command: /ban received.
+2022-09-16 20:53:14,912 - root - INFO - Checking permission for 1381836444 in -1001760428223.
+2022-09-16 20:53:15,474 - root - INFO - Permission denied.
+2022-09-16 20:53:25,060 - root - INFO - Command: /ban received.
+2022-09-16 20:53:25,061 - root - INFO - Checking permission for 5444386676 in -1001760428223.
+2022-09-16 20:53:26,361 - root - INFO - No reply detected.
+2022-09-16 20:53:30,771 - root - INFO - Command: /ban received.
+2022-09-16 20:53:30,772 - root - INFO - Checking permission for 5444386676 in -1001760428223.
+2022-09-16 20:54:00,846 - root - INFO - Command: /ban received.
+2022-09-16 20:54:00,846 - root - INFO - Checking permission for 5444386676 in -1001760428223.
+2022-09-16 20:54:01,200 - root - INFO - No reply detected.
+2022-09-16 20:54:44,514 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 20:54:44,515 - TeleBot - ERROR - Break infinity polling
+2022-09-16 20:54:44,955 - root - INFO - Bot intialized
+2022-09-16 20:54:44,965 - root - INFO - Bot started
+2022-09-16 20:54:47,816 - root - INFO - Command: /ban received.
+2022-09-16 20:54:47,816 - root - INFO - Checking permission for 5444386676 in -1001760428223.
+2022-09-16 20:54:51,265 - root - INFO - No reply detected.
+2022-09-16 20:54:51,265 - root - INFO - No user id detected.
+2022-09-16 20:55:02,544 - root - INFO - Command: /ban 156273 received.
+2022-09-16 20:56:50,120 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 20:56:50,120 - TeleBot - ERROR - Break infinity polling
+2022-09-16 20:56:50,486 - root - INFO - Bot intialized
+2022-09-16 21:00:30,622 - root - INFO - Bot intialized
+2022-09-16 21:00:30,632 - root - INFO - Bot started
+2022-09-16 21:00:37,653 - root - INFO - Command: /ban 156273 received.
+2022-09-16 21:00:47,305 - root - INFO - Command: /ban received.
+2022-09-16 21:00:47,305 - root - INFO - Checking permission for 5444386676 in -1001760428223.
+2022-09-16 21:00:48,327 - root - INFO - No reply detected.
+2022-09-16 21:00:48,327 - root - INFO - No user id detected.
+2022-09-16 21:01:13,658 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 21:01:13,658 - TeleBot - ERROR - Break infinity polling
+2022-09-16 21:01:14,099 - root - INFO - Bot intialized
+2022-09-16 21:01:14,108 - root - INFO - Bot started
+2022-09-16 21:01:17,172 - root - INFO - Command: /ban received.
+2022-09-16 21:01:17,172 - root - INFO - Checking permission for 5444386676 in -1001760428223.
+2022-09-16 21:01:18,190 - root - INFO - No reply detected.
+2022-09-16 21:01:18,190 - root - INFO - No user id detected.
+2022-09-16 21:01:18,734 - root - INFO - Command: /ban handled.
+2022-09-16 21:02:24,227 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 21:02:24,227 - TeleBot - ERROR - Break infinity polling
+2022-09-16 21:02:24,657 - root - INFO - Bot intialized
+2022-09-16 21:02:24,663 - root - INFO - Bot started
+2022-09-16 21:02:31,289 - root - INFO - Command: /ban received.
+2022-09-16 21:02:31,290 - root - INFO - Checking permission for 1381836444 in -1001760428223.
+2022-09-16 21:02:34,740 - root - INFO - Permission denied.
+2022-09-16 21:02:35,303 - root - INFO - Command: /ban handled.
+2022-09-16 21:04:27,938 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 21:04:27,938 - TeleBot - ERROR - Break infinity polling
+2022-09-16 21:04:28,318 - root - INFO - Bot intialized
+2022-09-16 21:04:28,327 - root - INFO - Bot started
+2022-09-16 21:04:36,028 - root - INFO - Command: /ban received.
+2022-09-16 21:04:36,028 - root - INFO - Handling ban command(/ban)from 1381836444 in -1001760428223.
+2022-09-16 21:04:36,028 - root - INFO - Checking permission for 1381836444 in -1001760428223.
+2022-09-16 21:04:38,769 - root - INFO - Permission denied.
+2022-09-16 21:04:39,371 - root - INFO - Command: /ban handled.
+2022-09-16 21:04:46,360 - root - INFO - Command: /ban 1826373 received.
+2022-09-16 21:04:46,360 - root - INFO - Command: /ban 1826373 handled.
+2022-09-16 21:05:56,414 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 21:05:56,414 - TeleBot - ERROR - Break infinity polling
+2022-09-16 21:05:56,866 - root - INFO - Bot intialized
+2022-09-16 21:05:56,875 - root - INFO - Bot started
+2022-09-16 21:06:00,580 - root - INFO - Command: /ban 1826373 received.
+2022-09-16 21:06:00,580 - root - INFO - Command: /ban 1826373 handled.
+2022-09-16 21:08:47,723 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 21:08:47,723 - TeleBot - ERROR - Break infinity polling
+2022-09-16 21:08:52,614 - root - INFO - Bot intialized
+2022-09-16 21:08:52,621 - root - INFO - Bot started
+2022-09-16 21:08:56,717 - root - INFO - Command: /ban received.
+2022-09-16 21:08:56,718 - root - INFO - Handling ban command(/ban)from 1381836444 in -1001760428223.
+2022-09-16 21:08:56,718 - root - INFO - Checking permission for 1381836444 in -1001760428223.
+2022-09-16 21:08:58,135 - root - INFO - Permission denied.
+2022-09-16 21:08:58,703 - root - INFO - Command: /ban handled.
+2022-09-16 21:09:09,731 - root - INFO - Command: /ban 138474 received.
+2022-09-16 21:09:09,732 - root - INFO - Command: /ban 138474 handled.
+2022-09-16 21:10:16,755 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 21:10:16,755 - TeleBot - ERROR - Break infinity polling
+2022-09-16 21:10:17,133 - root - INFO - Bot intialized
+2022-09-16 21:10:17,139 - root - INFO - Bot started
+2022-09-16 21:10:19,888 - root - INFO - Command: /ban received.
+2022-09-16 21:10:19,888 - root - INFO - Handling ban command(/ban)from 1381836444 in -1001760428223.
+2022-09-16 21:10:19,888 - root - INFO - Checking permission for 1381836444 in -1001760428223.
+2022-09-16 21:10:22,922 - root - INFO - Permission denied.
+2022-09-16 21:10:23,461 - root - INFO - Command: /ban handled.
+2022-09-16 21:10:26,881 - root - INFO - Command: /ban 138474 received.
+2022-09-16 21:10:26,881 - root - INFO - Handling ban command(/ban 138474)from 1381836444 in -1001760428223.
+2022-09-16 21:10:26,882 - root - INFO - Checking permission for 1381836444 in -1001760428223.
+2022-09-16 21:10:27,216 - root - INFO - Permission denied.
+2022-09-16 21:10:27,777 - root - INFO - Command: /ban 138474 handled.
+2022-09-16 21:10:50,267 - root - INFO - Command: /ban 138474 received.
+2022-09-16 21:10:50,267 - root - INFO - Handling ban command(/ban 138474)from 5444386676 in -1001760428223.
+2022-09-16 21:10:50,267 - root - INFO - Checking permission for 5444386676 in -1001760428223.
+2022-09-16 21:10:50,591 - TeleBot - ERROR - Infinity polling exception: object of type 'NoneType' has no len()
+2022-09-16 21:10:50,595 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 874, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 946, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 1021, in __threaded_polling
+    raise e
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 977, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 154, in raise_exceptions
+    raise self.exception_info
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 98, in run
+    task(*args, **kwargs)
+  File "C:\coding\py\bot-project\miya\miya\utils.py", line 19, in listener
+    text_handler(m)
+  File "C:\coding\py\bot-project\miya\miya\handler\text.py", line 17, in text_handler
+    command_handler(message)
+  File "C:\coding\py\bot-project\miya\miya\handler\command.py", line 25, in command_handler
+    return ban(message)
+  File "C:\coding\py\bot-project\miya\miya\module\ban.py", line 26, in ban
+    if len(m.reply_to_message) == 0:
+TypeError: object of type 'NoneType' has no len()
+
+2022-09-16 21:16:27,503 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 21:16:27,503 - TeleBot - ERROR - Break infinity polling
+2022-09-16 21:16:27,883 - root - INFO - Bot intialized
+2022-09-16 21:16:27,893 - root - INFO - Bot started
+2022-09-16 21:16:40,295 - root - INFO - Command: /ban received.
+2022-09-16 21:16:40,295 - root - INFO - Handling ban command(/ban)from 5444386676 in -1001760428223.
+2022-09-16 21:16:40,295 - root - INFO - Checking permission for 5444386676 in -1001760428223.
+2022-09-16 21:16:41,711 - root - INFO - No reply detected.
+2022-09-16 21:16:41,713 - TeleBot - ERROR - Infinity polling exception: list index out of range
+2022-09-16 21:16:41,717 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\miya\module\ban.py", line 27, in ban
+    if len(m.reply_to_message) > 1:
+TypeError: object of type 'NoneType' has no len()
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 874, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 946, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 1021, in __threaded_polling
+    raise e
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 977, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 154, in raise_exceptions
+    raise self.exception_info
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 98, in run
+    task(*args, **kwargs)
+  File "C:\coding\py\bot-project\miya\miya\utils.py", line 19, in listener
+    text_handler(m)
+  File "C:\coding\py\bot-project\miya\miya\handler\text.py", line 17, in text_handler
+    command_handler(message)
+  File "C:\coding\py\bot-project\miya\miya\handler\command.py", line 25, in command_handler
+    return ban(message)
+  File "C:\coding\py\bot-project\miya\miya\module\ban.py", line 35, in ban
+    log(f"User id {m.text.split(' ')[1]} detected.")
+IndexError: list index out of range
+
+2022-09-16 21:18:39,751 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 21:18:39,751 - TeleBot - ERROR - Break infinity polling
+2022-09-16 21:18:40,079 - root - INFO - Bot intialized
+2022-09-16 21:18:40,090 - root - INFO - Bot started
+2022-09-16 21:18:42,396 - root - INFO - Command: /ban received.
+2022-09-16 21:18:42,396 - root - INFO - Handling ban command(/ban)from 5444386676 in -1001760428223.
+2022-09-16 21:18:42,396 - root - INFO - Checking permission for 5444386676 in -1001760428223.
+2022-09-16 21:18:43,778 - root - INFO - No reply detected.
+2022-09-16 21:18:43,778 - root - INFO - Bad command.
+2022-09-16 21:18:44,339 - root - INFO - Command: /ban handled.
+2022-09-16 21:18:55,026 - root - INFO - Command: /ban 138474 received.
+2022-09-16 21:18:55,026 - root - INFO - Handling ban command(/ban 138474)from 5444386676 in -1001760428223.
+2022-09-16 21:18:55,026 - root - INFO - Checking permission for 5444386676 in -1001760428223.
+2022-09-16 21:18:55,356 - root - INFO - No reply detected.
+2022-09-16 21:18:55,356 - root - INFO - User id 138474 detected.
+2022-09-16 21:18:55,356 - root - INFO - Command: /ban 138474 handled.
+2022-09-16 21:50:10,268 - TeleBot - ERROR - Infinity polling exception: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+2022-09-16 21:50:10,271 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1273, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1129, in read
+    return self._sslobj.read(len, buffer)
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 874, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 946, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 1021, in __threaded_polling
+    raise e
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 98, in run
+    task(*args, **kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 333, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 155, in _make_request
+    result = _get_req_session().request(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+2022-09-16 21:52:34,342 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 21:52:34,342 - TeleBot - ERROR - Break infinity polling
+2022-09-16 21:52:34,798 - root - INFO - Bot intialized
+2022-09-16 21:52:34,809 - root - INFO - Bot started
+2022-09-16 21:52:39,940 - root - INFO - Command: /ban received.
+2022-09-16 21:52:39,940 - root - INFO - Handling ban command(/ban)from 1381836444 in -1001760428223.
+2022-09-16 21:52:39,941 - root - INFO - Checking permission for 1381836444 in -1001760428223.
+2022-09-16 21:52:44,428 - root - INFO - Permission denied.
+2022-09-16 21:52:45,034 - root - INFO - Command: /ban handled.
+2022-09-16 21:52:58,971 - root - INFO - Command: /start received.
+2022-09-16 21:53:05,355 - root - INFO - Command: /start handled.
+2022-09-16 21:53:15,150 - root - INFO - Command: /start received.
+2022-09-16 21:53:17,409 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 21:53:17,409 - TeleBot - ERROR - Break infinity polling
+2022-09-16 21:53:17,823 - root - INFO - Bot intialized
+2022-09-16 21:53:17,829 - root - INFO - Bot started
+2022-09-16 21:53:51,565 - TeleBot - ERROR - Infinity polling exception: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-09-16 21:53:51,568 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\packages\six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 874, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 946, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 1021, in __threaded_polling
+    raise e
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 98, in run
+    task(*args, **kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 333, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 155, in _make_request
+    result = _get_req_session().request(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+2022-09-16 21:54:00,084 - root - INFO - Command: /start received.
+2022-09-16 21:54:03,736 - root - INFO - Command: /start handled.
+2022-09-16 21:54:07,165 - root - INFO - Command: /start received.
+2022-09-16 21:54:08,395 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is too long
+2022-09-16 21:54:08,396 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 977, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 154, in raise_exceptions
+    raise self.exception_info
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 98, in run
+    task(*args, **kwargs)
+  File "C:\coding\py\bot-project\miya\miya\utils.py", line 19, in listener
+    text_handler(m)
+  File "C:\coding\py\bot-project\miya\miya\handler\text.py", line 17, in text_handler
+    command_handler(message)
+  File "C:\coding\py\bot-project\miya\miya\handler\command.py", line 21, in command_handler
+    return start(message)
+  File "C:\coding\py\bot-project\miya\miya\module\start.py", line 17, in start
+    bot.send_message(message.chat.id, message)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 1451, in send_message
+    apihelper.send_message(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 276, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 161, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 188, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is too long
+
+2022-09-16 21:54:14,949 - root - INFO - Command: /start received.
+2022-09-16 21:54:16,880 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is too long
+2022-09-16 21:54:16,881 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 977, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 154, in raise_exceptions
+    raise self.exception_info
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 98, in run
+    task(*args, **kwargs)
+  File "C:\coding\py\bot-project\miya\miya\utils.py", line 19, in listener
+    text_handler(m)
+  File "C:\coding\py\bot-project\miya\miya\handler\text.py", line 17, in text_handler
+    command_handler(message)
+  File "C:\coding\py\bot-project\miya\miya\handler\command.py", line 21, in command_handler
+    return start(message)
+  File "C:\coding\py\bot-project\miya\miya\module\start.py", line 17, in start
+    bot.send_message(message.chat.id, message)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 1451, in send_message
+    apihelper.send_message(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 276, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 161, in _make_request
+    json_result = _check_result(method_name, result)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 188, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is too long
+
+2022-09-16 21:54:47,490 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 21:54:47,490 - TeleBot - ERROR - Break infinity polling
+2022-09-16 21:54:48,030 - root - INFO - Bot intialized
+2022-09-16 21:54:48,045 - root - INFO - Bot started
+2022-09-16 21:54:52,836 - root - INFO - Command: /start received.
+2022-09-16 21:54:54,476 - root - INFO - Command: /start handled.
+2022-09-16 22:03:23,821 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-16 22:03:23,821 - TeleBot - ERROR - Break infinity polling
+2022-09-16 22:03:24,327 - root - INFO - Bot intialized
+2022-09-16 22:03:24,340 - root - INFO - [DEBUG] START DEBUGGING
+2022-09-16 22:03:24,340 - root - INFO - Update sender: https://api.telegram.org/bot5507329420:AAFh6JK-aMqN0_eIMY1XHu33bR-BDkO-mo8/getUpdates
+2022-09-16 22:05:28,232 - root - INFO - Bot intialized
+2022-09-16 22:05:28,239 - root - INFO - [DEBUG] START DEBUGGING
+2022-09-16 22:05:28,239 - root - INFO - Update sender: https://api.telegram.org/bot5507329420:AAFh6JK-aMqN0_eIMY1XHu33bR-BDkO-mo8/getUpdates
+2022-09-16 22:06:18,757 - root - INFO - Bot intialized
+2022-09-16 22:06:18,766 - root - INFO - [DEBUG] START DEBUGGING
+2022-09-16 22:06:18,766 - root - INFO - Update sender: https://api.telegram.org/bot5507329420:AAFh6JK-aMqN0_eIMY1XHu33bR-BDkO-mo8/getUpdates
+2022-09-16 22:06:32,166 - root - INFO - Bot intialized
+2022-09-16 22:06:32,175 - root - INFO - [DEBUG] START DEBUGGING
+2022-09-16 22:06:32,175 - root - INFO - Update sender: https://api.telegram.org/bot5507329420:AAFh6JK-aMqN0_eIMY1XHu33bR-BDkO-mo8/getUpdates
+2022-09-16 22:06:46,961 - root - INFO - Bot intialized
+2022-09-16 22:06:46,971 - root - INFO - [DEBUG] START DEBUGGING
+2022-09-16 22:06:46,971 - root - INFO - Update sender: https://api.telegram.org/bot5507329420:AAFh6JK-aMqN0_eIMY1XHu33bR-BDkO-mo8/getUpdates
+2022-09-16 22:06:54,667 - root - INFO - Bot intialized
+2022-09-16 22:06:54,672 - root - INFO - [DEBUG] START DEBUGGING
+2022-09-16 22:06:54,672 - root - INFO - Update sender: https://api.telegram.org/bot5507329420:AAFh6JK-aMqN0_eIMY1XHu33bR-BDkO-mo8/getUpdates
+2022-09-16 22:07:59,127 - root - INFO - Bot intialized
+2022-09-16 22:07:59,131 - root - INFO - [DEBUG] START DEBUGGING
+2022-09-16 22:07:59,132 - root - INFO - Update sender: https://api.telegram.org/bot5507329420:AAFh6JK-aMqN0_eIMY1XHu33bR-BDkO-mo8/getUpdates
+2022-09-16 22:08:20,336 - root - INFO - Bot intialized
+2022-09-16 22:08:20,341 - root - INFO - [DEBUG] START DEBUGGING
+2022-09-16 22:08:20,341 - root - INFO - Update sender: https://api.telegram.org/bot5507329420:AAFh6JK-aMqN0_eIMY1XHu33bR-BDkO-mo8/getUpdates
+2022-09-16 22:08:20,397 - root - INFO - Bot intialized
+2022-09-16 22:08:20,401 - root - INFO - [DEBUG] START DEBUGGING
+2022-09-16 22:08:20,401 - root - INFO - Update sender: https://api.telegram.org/bot5507329420:AAFh6JK-aMqN0_eIMY1XHu33bR-BDkO-mo8/getUpdates
+2022-09-16 22:11:07,873 - root - INFO - Bot intialized
+2022-09-16 22:11:07,879 - root - INFO - Bot started
+2022-09-16 22:11:15,461 - root - INFO - Command: /start received.
+2022-09-16 22:11:16,895 - root - INFO - Command: /start handled.
+2022-09-16 22:22:14,153 - TeleBot - ERROR - Infinity polling exception: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+2022-09-16 22:22:14,156 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1273, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1129, in read
+    return self._sslobj.read(len, buffer)
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 874, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 946, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 1021, in __threaded_polling
+    raise e
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 98, in run
+    task(*args, **kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 333, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 155, in _make_request
+    result = _get_req_session().request(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+2022-09-16 22:48:54,444 - TeleBot - ERROR - Infinity polling exception: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+2022-09-16 22:48:54,446 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1273, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1129, in read
+    return self._sslobj.read(len, buffer)
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 874, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 946, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 1021, in __threaded_polling
+    raise e
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 98, in run
+    task(*args, **kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 333, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 155, in _make_request
+    result = _get_req_session().request(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+2022-09-17 00:02:39,126 - TeleBot - ERROR - Infinity polling exception: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-09-17 00:02:39,129 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\packages\six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 874, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 946, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 1021, in __threaded_polling
+    raise e
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 98, in run
+    task(*args, **kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 333, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 155, in _make_request
+    result = _get_req_session().request(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+2022-09-17 01:56:45,724 - TeleBot - ERROR - Infinity polling exception: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+2022-09-17 01:56:45,727 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1273, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1129, in read
+    return self._sslobj.read(len, buffer)
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 874, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 946, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 1021, in __threaded_polling
+    raise e
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 98, in run
+    task(*args, **kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 333, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 155, in _make_request
+    result = _get_req_session().request(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+2022-09-17 05:33:05,786 - TeleBot - ERROR - Infinity polling exception: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+2022-09-17 05:33:05,788 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1273, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1129, in read
+    return self._sslobj.read(len, buffer)
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 874, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 946, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 1021, in __threaded_polling
+    raise e
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 98, in run
+    task(*args, **kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 333, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 155, in _make_request
+    result = _get_req_session().request(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+2022-09-17 09:32:29,345 - TeleBot - ERROR - Infinity polling exception: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+2022-09-17 09:32:29,441 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1273, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\acer\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1129, in read
+    return self._sslobj.read(len, buffer)
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 451, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 874, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 946, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 1021, in __threaded_polling
+    raise e
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 976, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 116, in raise_exceptions
+    raise self.exception_info
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\util.py", line 98, in run
+    task(*args, **kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 601, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\__init__.py", line 575, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 333, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\telebot\apihelper.py", line 155, in _make_request
+    result = _get_req_session().request(
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\coding\py\bot-project\miya\venv\lib\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+2022-09-17 09:32:33,627 - root - INFO - Command: /start received.
+2022-09-17 09:32:34,999 - root - INFO - Command: /start handled.
+2022-09-17 09:42:40,800 - TeleBot - ERROR - Infinity polling: polling exited
+2022-09-17 09:42:40,800 - TeleBot - ERROR - Break infinity polling
