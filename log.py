@@ -25,7 +25,7 @@ def push_log():
     os.system(f'git commit -m "[BOT] Update log at {datetime.datetime.now()}"')
     os.system('git remote add origin https://github.com/manho30/miya.git')
     os.system('git branch -M main')
-    os.system('git push origin master')
+    os.system('git push origin main')
     print('Log pushed')
 
 if __name__ == '__main__':
